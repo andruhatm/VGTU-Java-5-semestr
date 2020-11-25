@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.client.ChatAppController">
+   <children>
+      <Pane layoutX="7.0" layoutY="7.0" prefHeight="386.0" prefWidth="582.0">
+         <children>
+            <Button fx:id="nickButton" layoutX="474.0" layoutY="25.0" mnemonicParsing="false" onAction="#commit" prefHeight="27.0" prefWidth="74.0" text="Ok" />
+            <TextField fx:id="nicknameField" layoutX="212.0" layoutY="25.0" prefHeight="27.0" prefWidth="213.0" promptText="nickname" />
+            <Label layoutX="32.0" layoutY="25.0" prefHeight="27.0" prefWidth="152.0" text="Enter your nickname">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="dialogField" editable="false" layoutX="21.0" layoutY="86.0" prefHeight="228.0" prefWidth="541.0" />
+            <TextField fx:id="message" layoutX="21.0" layoutY="332.0" prefHeight="27.0" prefWidth="458.0" />
+            <Button fx:id="sendButton" layoutX="494.0" layoutY="332.0" mnemonicParsing="false" onAction="#send" prefHeight="27.0" prefWidth="74.0" text="Send" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

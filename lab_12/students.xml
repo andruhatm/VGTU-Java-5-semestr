@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+    <allStudents>
+        <student>
+            <firstName>Ilya</firstName>
+            <lastName>Petrov</lastName>
+            <age>17</age>
+            <AvMark>4.5</AvMark>
+        </student>
+        <student>
+            <firstName>Andrey</firstName>
+            <lastName>Gerasimov</lastName>
+            <age>19</age>
+            <AvMark>4.75</AvMark>
+        </student>
+        <student>
+            <firstName>Vova</firstName>
+            <lastName>Sidorov</lastName>
+            <age>20</age>
+            <AvMark>4.0</AvMark>
+        </student>
+        <student>
+            <firstName>Mark</firstName>
+            <lastName>Fursov</lastName>
+            <age>23</age>
+            <AvMark>4.2</AvMark>
+        </student>
+        <student>
+            <firstName>John</firstName>
+            <lastName>Polev</lastName>
+            <age>33</age>
+            <AvMark>4.4</AvMark>
+        </student>
+    </allStudents>
+</students>
